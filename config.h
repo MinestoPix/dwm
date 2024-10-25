@@ -139,7 +139,7 @@ static const Key keys[] = {
 	STACKKEYS(MODKEY,                              focus)
 	STACKKEYS(MODKEY|ShiftMask,                    push)
 	/* { MODKEY|ShiftMask,		XK_Escape,     spawn,	               SHCMD("") }, */
-	{ MODKEY,			XK_grave,      spawn,	               {.v = (const char*[]){ "dmenuunicode", NULL } } },
+	{ MODKEY,			XK_numbersign,      spawn,	               {.v = (const char*[]){ "dmenuunicode", NULL } } },
 	/* { MODKEY|ShiftMask,		XK_grave,      togglescratch,	       SHCMD("") }, */
 	TAGKEYS(			XK_ampersand,  0)
 	TAGKEYS(			XK_bracketleft,1)
